@@ -16,13 +16,7 @@ class Person:
     def city(self, value):
         self._city = value
 
-    @property
-    def address(self):
-        return self._address
 
-    @address.setter
-    def address(self, value):
-        self._address = value
 
     @property
     def phone_number(self, _default=None):
