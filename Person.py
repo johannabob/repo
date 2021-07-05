@@ -23,7 +23,7 @@ class Person:
         return self._phone_number
 
     @phone_number.setter
-    def phone_number(self, value):
+    def phone_number2(self, value):
         self._phone_number = value
 
     def __str__(self):
