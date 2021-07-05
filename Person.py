@@ -5,6 +5,9 @@ class Person:
         self._address = address
         self._phone_number = phone_number
 
+#muistiinpanosdfgh wertyu er
+#ghjklugfghj fghigj
+
     @property
     def city(self, _default = None):
         return self._city
@@ -30,4 +33,5 @@ class Person:
         self._phone_number = value
 
     def __str__(self):
-        return f'Address: {self._address}\nCity: {self._city}\nPhone: {self._phone_number}'
+        #muokkailua spotwepotuwpoeti
+        return f'City: {self._city}\nPhone: {self._phone_number}'
