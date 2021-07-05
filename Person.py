@@ -1,5 +1,5 @@
   
-class Person:
+class Person1234:
     def __init__(self, city, address, phone_number):
         self._city = city
         self._address = address
