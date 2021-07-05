@@ -9,10 +9,10 @@ class Person1234:
 #ghjklugfghj fghigj
 
     @property
-    def city(self, _default = None):
+    def city3(self, _default = None):
         return self._city
 
-    @city.setter
+    @city3.setter
     def city(self, value):
         self._city = value
 
